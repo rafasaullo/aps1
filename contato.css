@@ -1,0 +1,161 @@
+*{
+  margin: 0px; 
+}
+body{
+  font-family: 'Maven Pro', sans-serif;
+}
+.nav-list a{
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover{
+  color: rgb(28, 186, 85);
+  opacity: 0.7;
+}
+.logo{
+  width: 210px;
+  height: 70px;   
+  background-image: url('imagem/logo.svg');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  height: 50px;
+  margin-top: 30px;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+.nav-list li{
+  letter-spacing: 3px;
+  margin-left: 130px;
+ }
+.container{
+  margin: 50px auto 0px auto;
+  width: 89%;
+  height: 355px;
+  background-color: #fff;
+  border-radius: 8px; 
+  display: flex;
+}
+.imgMensagem{
+  height: 180px;
+  width: 440px;
+  height: 320px;
+  margin-top: 15px;
+  margin-left: 180px; 
+}
+.organizacao{
+  padding: 7%;
+}
+.organizacao h3{
+  font-size: 25px;
+  margin-top:  -20px;
+}
+.organizacao p{
+  font-size: 18px;
+  margin-top: 10px;
+  color: gray;
+}
+.containerButton{
+  margin-top: 40px;
+  display: flex;
+}
+.imgGmail{
+  width:32px; 
+  height:32px;
+}  
+.imgGmail:hover{
+  width:22px; 
+  height:22px;
+  transition-duration: 1s;
+}  
+.imgWhatsapp{
+  width:32px; 
+  height:32px;
+}
+.imgWhatsapp:hover{
+  width:22px; 
+  height:22px;
+  transition-duration: 1s;
+}  
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttonGmail{
+  width: 50px;
+  height: 50px;
+  border: 1px none #ffffff;
+  border-radius: 10px;
+  background-color: #eee;
+}
+.buttonWhatsapp{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  border: 1px none #ffffff;
+  border-radius: 10px;
+  background-color: #eee;
+}
+.footer{
+  margin: 100px auto 0px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #1f242b;
+}
+.footer-grid{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.logo-footer{
+  width: 210px;
+  height: 70px;   
+  background-image: url('imagem/logo.svg');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-left: 30px;
+}
+.footer-link{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #25995c;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #8dc63f;
+  opacity: 0.7;
+}
+.footer-heading{
+  color: #fff;
+  font-weight: 400;
+}
+.divider{
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #8dc63f;
+}
+.copyright-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #a5acb4;
+  font-style: italic;
+  text-align: center;
+}
+.footer-icon{
+  max-width:20px;
+  max-height:20px;
+  width: auto;
+  height: auto;
+}
